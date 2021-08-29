@@ -113,7 +113,7 @@ function ladoAleatorio() {
     }
 }
 
-//Criando o intervalo de tampo de spawm dos mosquitos.
+//Criando o intervalo de tempo de spawm dos mosquitos.
 let criaMosquito = setInterval(function(){
     posicaoRandom();
 }, criaMosquitoTempo);
